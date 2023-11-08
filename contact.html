@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Wipix - Liên hệ</title>
+    <link href="static/css/home.min.css" rel="stylesheet" />
+  </head>
+  <body class="w-screen overflow-x-hidden font-SF-Pro-Text">
+    <header class="w-full sticky top-0 bg-white z-20">
+      <div class="w-full mx-auto xl:max-w-7xl">
+        <div
+          class="relative flex w-full justify-between items-center pl-4 pr-6 py-[22px] md:py-3.5 xl:p-2 2xl:px-0"
+        >
+          <div class="w-[93px] h-9">
+            <a href="index.html"
+              ><img
+                src="images/logo.svg"
+                class="w-full h-full object-contain"
+                alt=""
+            /></a>
+          </div>
+          <div
+            id="dropdown-menu"
+            class="invisible transition-all opacity-0 duration-300 w-full !transform-none xl:!visible xl:opacity-100 xl:!static xl:!h-fit xl:w-fit"
+          >
+            <div
+              class="flex flex-col py-4 px-6 gap-8 text-body-2 text-wp-neutral-1-900 md:py-8 xl:p-0 xl:flex-row-reverse"
+            >
+              <div class="flex gap-2 justify-end font-semibold">
+                <button class="btn-log-in h-fit">
+                  <a href="#" class="py-2 px-7">Đăng nhập</a>
+                </button>
+                <button class="btn-primary-full h-fit">
+                  <a href="#" class="py-2 px-7">Đăng ký</a>
+                </button>
+              </div>
+              <ul
+                id="list-menu"
+                class="flex flex-col gap-2 xl:gap-4 xl:flex-row"
+              >
+                <li class="flex">
+                  <a href="index.html" class="p-2 xl:px-3">Trang chủ</a>
+                </li>
+                <li class="flex">
+                  <a href="feature.html" class="p-2 xl:px-3">Tính năng</a>
+                </li>
+                <li class="flex">
+                  <a href="interface-store.html" class="p-2 xl:px-3"
+                    >Giao diện</a
+                  >
+                </li>
+                <li class="flex">
+                  <a href="app-store.html" class="p-2 xl:px-3">Kho ứng dụng</a>
+                </li>
+                <li class="flex">
+                  <a href="blog.html" class="p-2 xl:px-3">Blog</a>
+                </li>
+                <li class="flex font-semibold text-wp-primary-1">
+                  <a href="contact.html" class="p-2 xl:px-3">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              id="image-header"
+              class="absolute bottom-0 right-0 w-full xl:!hidden"
+            >
+              <div class="relative w-full pt-[42%]">
+                <img
+                  src="images/header-bottom-img.svg"
+                  class="image-custom object-cover"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            id="menu-toggle-btn"
+            class="flex w-6 h-6 text-wp-neutral-1-900 text-2xl leading-none xl:hidden"
+            data-dropdown-toggle="dropdown-menu"
+          >
+            <i class="tdsi-menu-fill text-xl leading-none"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="w-full bg-breadcrumb bg-cover bg-center bg-no-repeat">
+          <div class="mx-auto w-full xl:max-w-7xl">
+            <div
+              class="py-6 px-4 md:px-6 md:py-[34px] lg:px-2 2xl:px-0 xl:py-12"
+            >
+              <div
+                class="text-center text-heading-3 md:text-display-6 md:leading-[53px] xl:text-display-4 xl:leading-[74px] font-TMTSans font-semibold text-white"
+              >
+                Liên hệ
+              </div>
+              <div class="flex justify-center pt-2">
+                <div
+                  class="flex w-fit px-[13px] py-[7px] gap-x-1.5 bg-white/20"
+                >
+                  <div class="flex">
+                    <a
+                      href="./index.html"
+                      class="text-white text-body-2 font-normal"
+                      >Trang chủ</a
+                    >
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <i
+                      class="tdsi-chevron-right-fill text-xl leading-5 text-white"
+                    ></i>
+                  </div>
+                  <div class="text-white text-body-2 font-normal">Liên hệ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full bg-white relative inset-0">
+          <div class="w-full absolute inset-x-0 bottom-0 z-0">
+            <div class="relative pt-[43%] w-full md:pt-[42%] xl:pt-[23%]">
+              <img
+                src="images/home-banner-background.png"
+                alt=""
+                class="image-custom object-cover"
+              />
+            </div>
+          </div>
+          <div class="mx-auto w-full relative z-10 xl:max-w-7xl">
+            <div
+              class="flex flex-col items-center px-4 py-12 md:pt-[60px] md:pb-[100px] md:px-6 xl:pt-20 xl:pb-[68px] lg:px-2 2xl:px-0"
+            >
+              <div class="flex flex-col text-center gap-3">
+                <p
+                  class="text-wp-neutral-1-900 text-display-5 leading-[64px] font-semibold font-TMTSans md:text-display-4 md:leading-[74px]"
+                >
+                  Liên hệ với Wipix để được hỗ trợ tốt nhất
+                </p>
+                <p class="text-wp-neutral-1-700 text-body-1">
+                  Hãy để Wipix giải đáp thắc mắc của quý khách
+                </p>
+              </div>
+              <div
+                class="flex flex-col w-full pt-10 gap-10 justify-between md:pt-16 lg:flex-row"
+              >
+                <div class="flex gap-6">
+                  <span class="flex p-3.5 rounded-full bg-wp-primary-5"
+                    ><i
+                      class="tdsi-support-fill text-wp-primary-1 text-heading-2 leading-none"
+                    ></i
+                  ></span>
+                  <div class="flex flex-col gap-3">
+                    <p class="text-body-1 text-wp-neutral-1-700">Hotline:</p>
+                    <p class="text-title-1 font-semibold text-wp-neutral-1-900">
+                      1900 2852 (24/7)
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-6">
+                  <span class="flex p-3.5 rounded-full bg-wp-success-100"
+                    ><i
+                      class="tdsi-call-fill text-wp-success-400 text-heading-2 leading-none"
+                    ></i
+                  ></span>
+                  <div class="flex flex-col gap-3">
+                    <p class="text-body-1 text-wp-neutral-1-700">
+                      Số điện thoại
+                    </p>
+                    <p class="text-title-1 font-semibold text-wp-neutral-1-900">
+                      +8490 807 5455
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-6">
+                  <span class="flex p-3.5 rounded-full bg-wp-info-100"
+                    ><i
+                      class="tdsi-email-fill text-wp-info-400 text-heading-2 leading-none"
+                    ></i
+                  ></span>
+                  <div class="flex flex-col gap-3">
+                    <p class="text-body-1 text-wp-neutral-1-700">
+                      Send me a email
+                    </p>
+                    <p class="text-title-1 font-semibold text-wp-neutral-1-900">
+                      info@wibix.vn
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col mt-10 bg-white rounded-[20px] shadow-1-lg px-4 py-12 w-full md:px-16 md:py-[60px] lg:max-w-[760px] xl:mt-[88px] xl:py-20"
+              >
+                <div class="flex flex-col gap-3">
+                  <p
+                    class="text-heading-4 font-TMTSans font-semibold text-wp-neutral-1-900"
+                  >
+                    Gửi yêu cầu liên hệ
+                  </p>
+                  <p class="text-body-1 text-wp-neutral-1-700">
+                    Chúng tôi sẽ liên lạc với bạn ngay khi có thể.
+                  </p>
+                </div>
+                <div
+                  class="grid grid-cols-1 pt-4 gap-4 md:pt-8 md:gap-x-8 md:gap-y-10 md:grid-cols-2"
+                >
+                  <div class="relative w-full">
+                    <input
+                      placeholder="Họ và tên (*)"
+                      class="effect-1 w-full pt-6 pb-3 border-b-2 border-wp-neutral-1-700 text-body-2 placeholder:text-wp-neutral-1-400 text-wp-neutral-1-900 focus:outline-0"
+                    />
+                    <span class="focus-border"></span>
+                  </div>
+                  <div class="relative w-full">
+                    <input
+                      placeholder="Số điện thoại"
+                      class="effect-1 w-full pt-6 pb-3 border-b-2 border-wp-neutral-1-700 text-body-2 placeholder:text-wp-neutral-1-400 text-wp-neutral-1-900 focus:outline-0"
+                    />
+                    <span class="focus-border"></span>
+                  </div>
+                  <div class="relative w-full">
+                    <input
+                      placeholder="Email"
+                      class="effect-1 w-full pt-6 pb-3 border-b-2 border-wp-neutral-1-700 text-body-2 placeholder:text-wp-neutral-1-400 text-wp-neutral-1-900 focus:outline-0"
+                    />
+                    <span class="focus-border"></span>
+                  </div>
+                  <div class="relative w-full">
+                    <input
+                      placeholder="Địa chỉ"
+                      class="effect-1 w-full pt-6 pb-3 border-b-2 border-wp-neutral-1-700 text-body-2 placeholder:text-wp-neutral-1-400 text-wp-neutral-1-900 focus:outline-0"
+                    />
+                    <span class="focus-border"></span>
+                  </div>
+                  <div class="relative w-full md:col-span-2">
+                    <input
+                      placeholder="Nội dung"
+                      class="effect-1 w-full pt-6 pb-3 border-b-2 border-wp-neutral-1-700 text-body-2 placeholder:text-wp-neutral-1-400 text-wp-neutral-1-900 focus:outline-0"
+                    />
+                    <span class="focus-border"></span>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="items-center gap-2 btn-primary-full w-fit h-fit mt-6 py-3 px-6 text-title-1 font-semibold md:mt-10"
+                >
+                  Gửi nội dung
+                  <span class="flex"
+                    ><i
+                      class="tdsi-send-fill text-white text-2xl leading-none"
+                    ></i
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mx-auto w-full xl:max-w-7xl">
+          <div
+            class="flex flex-col gap-10 py-12 px-4 md:px-6 md:py-[60px] lg:px-2 xl:gap-[52px] xl:py-20 2xl:px-0"
+          >
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="100%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=600&amp;height=600&amp;hl=en&amp;q=Tầng 2,4 Lô III - 26, Đường 19/5A, Nhóm CN III, Khu công nghiệp, Tân Bình, Tân Phú, TPHCM&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe
+                ><a href="https://mcpedls.com/">Minecraft Download</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 600px;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: 0 0 !important;
+                  width: 100%;
+                  height: 600px;
+                }
+                .gmap_iframe {
+                  height: 600px !important;
+                }
+              </style>
+            </div>
+            <div class="grid grid-cols-1 gap-7 lg:grid-cols-3">
+              <div
+                class="flex flex-col items-center gap-8 bg-white px-10 py-7 border border-neutral-2-100 rounded-xl"
+              >
+                <span class="flex p-3 bg-wp-primary-5 rounded-full"
+                  ><i
+                    class="tdsi-pin-fill text-wp-primary-1 text-2xl leading-none p-2 bg-wp-primary-4 rounded-full"
+                  ></i
+                ></span>
+                <div
+                  class="flex flex-col gap-2.5 text-center text-wp-neutral-1-900"
+                >
+                  <p class="text-title-1 font-semibold">Trụ sở</p>
+                  <p class="text-body-1">
+                    Tầng 2,4 Lô III - 26, Đường 19/5A, Nhóm CN III, Khu công
+                    nghiệp, Tân Bình, Tân Phú, TPHCM
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col items-center gap-8 bg-white px-10 py-7 border border-neutral-2-100 rounded-xl"
+              >
+                <span class="flex p-3 bg-wp-primary-5 rounded-full"
+                  ><i
+                    class="tdsi-pin-fill text-wp-primary-1 text-2xl leading-none p-2 bg-wp-primary-4 rounded-full"
+                  ></i
+                ></span>
+                <div
+                  class="flex flex-col gap-2.5 text-center text-wp-neutral-1-900"
+                >
+                  <p class="text-title-1 font-semibold">Cơ sở 1</p>
+                  <p class="text-body-1">
+                    Tầng 2,4 Lô III - 26, Đường 19/5A, Nhóm CN III, Khu công
+                    nghiệp, Tân Bình, Tân Phú, TPHCM
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col items-center gap-8 bg-white px-10 py-7 border border-neutral-2-100 rounded-xl"
+              >
+                <span class="flex p-3 bg-wp-primary-5 rounded-full"
+                  ><i
+                    class="tdsi-pin-fill text-wp-primary-1 text-2xl leading-none p-2 bg-wp-primary-4 rounded-full"
+                  ></i
+                ></span>
+                <div
+                  class="flex flex-col gap-2.5 text-center text-wp-neutral-1-900"
+                >
+                  <p class="text-title-1 font-semibold">Cơ sở 2</p>
+                  <p class="text-body-1">
+                    Tầng 2,4 Lô III - 26, Đường 19/5A, Nhóm CN III, Khu công
+                    nghiệp, Tân Bình, Tân Phú, TPHCM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full bg-wp-primary-1">
+          <div class="mx-auto w-full xl:max-w-7xl">
+            <div
+              class="flex flex-col text-white gap-4 py-12 px-4 md:gap-8 md:px-6 md:py-[60px] lg:px-2 lg:gap-6 xl:py-20 2xl:px-0"
+            >
+              <div class="flex flex-col gap-4 md:gap-8 lg:flex-row lg:gap-6">
+                <div class="flex flex-col gap-4 md:gap-10 lg:w-1/2">
+                  <p
+                    class="text-display-6 leading-[53px font-TMTSans font-semibold md:font-extrabold md:text-display-5 md:leading-[64px]"
+                  >
+                    Đồng hành cùng các doanh nghiệp trong và ngoài nước
+                  </p>
+                  <div
+                    class="flex border-2 border-white rounded-full text-title-1 font-semibold w-fit h-fit"
+                  >
+                    <a href="#" class="px-3 py-2.5">Tìm hiểu ngay</a>
+                  </div>
+                </div>
+                <div
+                  class="grid grid-cols-1 gap-4 md:gap-6 md:gap-y-0 md:grid-cols-2 lg:w-1/2"
+                >
+                  <div
+                    class="flex flex-col text-center px-6 py-8 gap-1 font-semibold"
+                  >
+                    <p class="text-display-5 leading-[64px] font-TMTSans">
+                      7634
+                    </p>
+                    <p class="text-header-2">Khách hàng tin cậy</p>
+                  </div>
+                  <div
+                    class="flex flex-col text-center px-6 py-8 gap-1 font-semibold"
+                  >
+                    <p class="text-display-5 leading-[64px] font-TMTSans">12</p>
+                    <p class="text-header-2">Danh hiệu dịch vụ đạt chuẩn</p>
+                  </div>
+                  <div
+                    class="flex flex-col text-center px-6 py-8 gap-1 font-semibold"
+                  >
+                    <p class="text-display-5 leading-[64px] font-TMTSans">72</p>
+                    <p class="text-header-2">Doanh nghiệp hợp tác</p>
+                  </div>
+                  <div
+                    class="flex flex-col text-center px-6 py-8 gap-1 font-semibold"
+                  >
+                    <p class="text-display-5 leading-[64px] font-TMTSans">02</p>
+                    <p class="text-header-2">Năm phát triển</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="contact-partner grid grid-cols-3 gap-4 w-full md:max-w-full md:overflow-x-scroll xl:gap-10"
+              >
+                <div class="w-full md:w-[28%] xl:w-1/6">
+                  <div class="relative w-full pt-[80%] md:pt-[58%]">
+                    <img
+                      src="images/partner-1.svg"
+                      class="image-custom object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-[28%] xl:w-1/6">
+                  <div class="relative w-full pt-[80%] md:pt-[58%]">
+                    <img
+                      src="images/partner-2.svg"
+                      class="image-custom object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-[28%] xl:w-1/6">
+                  <div class="relative w-full pt-[80%] md:pt-[58%]">
+                    <img
+                      src="images/partner-3.svg"
+                      class="image-custom object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-[28%] xl:w-1/6">
+                  <div class="relative w-full pt-[80%] md:pt-[58%]">
+                    <img
+                      src="images/partner-4.svg"
+                      class="image-custom object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="w-full md:w-[28%] xl:w-1/6">
+                  <div class="relative w-full pt-[80%] md:pt-[58%]">
+                    <img
+                      src="images/partner-5.svg"
+                      class="image-custom object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="w-full bg-white">
+        <div class="w-full mx-auto xl:max-w-7xl">
+          <div
+            class="flex flex-col gap-6 w-full px-6 py-[60px] lg:py-20 xl:flex-row xl:justify-between 2xl:px-0"
+          >
+            <div
+              class="flex flex-col w-full gap-12 md:max-w-[50%] xl:max-w-[30%]"
+            >
+              <div class="w-full flex flex-col gap-6">
+                <div class="w-full max-w-[170px] max-h-[66px]">
+                  <div class="relative w-full pt-[39%]">
+                    <img
+                      src="images/logo.svg"
+                      alt="Logo"
+                      class="image-custom object-contain"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 w-full text-wp-neutral-1-400 text-body-1 font-normal"
+                >
+                  <p>
+                    Worldwide tech store since 2020. We sell over 1000+ branded
+                    products on our website
+                  </p>
+                  <p class="w-full flex gap-2 items-center">
+                    <span
+                      class="tdsi-pin-fill text-wp-neutral-1-500 text-2xl leading-6"
+                    ></span>
+                    <span
+                      >Lô III-26, đường 19/5a, KCN Tân Bình, f. Tân Phú</span
+                    >
+                  </p>
+                  <p class="w-full flex gap-2 items-center">
+                    <span
+                      class="tdsi-call-fill text-wp-neutral-1-500 text-2xl leading-6"
+                    ></span>
+                    <span>+6289 456 3455</span>
+                  </p>
+                </div>
+              </div>
+              <button
+                class="w-fit flex items-center gap-2 rounded-[100px] bg-wp-primary-1/10 pr-8 text-wp-neutral-1-900 text-header-2"
+              >
+                <span class="flex p-2 bg-wp-primary-1/20 rounded-full"
+                  ><i
+                    class="tdsi-call-fill text-white text-2xl leading-6 p-3 bg-wp-primary-1 rounded-full shadow-[0px_4px_20px_rgba(0,0,0,0.1)]"
+                  ></i> </span
+                ><span>Hotline:</span>
+                <span class="font-semibold">1900 2852</span>
+              </button>
+            </div>
+            <div
+              class="w-full grid grid-cols-2 gap-6 font-semibold md:grid-cols-3 md:justify-between xl:max-w-[50%]"
+            >
+              <div class="flex flex-col gap-6 w-fit md:justify-self-start">
+                <p class="text-header-1 text-wp-neutral-1-900">Trang chính</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Trang chủ</li>
+                  <li>Tầm nhìn</li>
+                  <li>Bảng giá</li>
+                  <li>Về chúng tôi</li>
+                  <li>Liên hệ</li>
+                </ul>
+              </div>
+              <div
+                class="flex flex-col gap-6 w-fit justify-self-end md:justify-self-center"
+              >
+                <p class="text-header-1 text-wp-neutral-1-900">Trang CMS</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Kho giao diện</li>
+                  <li>Blog</li>
+                  <li>Blog Details</li>
+                  <li>Career Details</li>
+                  <li>Integrations Details</li>
+                  <li>Careers</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-6 w-fit md:justify-self-end">
+                <p class="text-header-1 text-wp-neutral-1-900">Trang khác</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Style Guide</li>
+                  <li>Licenses</li>
+                  <li>Career Details</li>
+                  <li>Integrations Details</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full flex flex-col items-center gap-2 px-6 py-4 border-t border-wp-neutral-2-200 lg:flex-row lg:justify-between 2xl:px-0"
+          >
+            <p class="text-title-1 text-wp-neutral-1-900 md:whitespace-nowrap">
+              Copyright © 2023 TWeb Templates | All Rights Reserved |
+              <a href="#" class="underline text-wp-neutral-1-500"
+                >Terms and Conditions</a
+              >
+              |
+              <a href="#" class="underline text-wp-neutral-1-500"
+                >Privacy Policy</a
+              >
+            </p>
+            <ul class="flex gap-3 text-wp-neutral-1-500 text-2xl leading-6">
+              <li class="flex">
+                <a href="#" class="tdsi-facebook-f-fill"></a>
+              </li>
+              <li class="flex"><a href="#" class="tdsi-twitter-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-instagram-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-tiktok-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-youtube-fill"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit right-8 fixed bottom-20 z-10">
+        <button
+          id="scrollToTopBtn"
+          class="p-4 rounded-full hidden justify-center items-center bg-wp-primary-1 shadow-1-xl hover:bg-wp-primary-2 active: transition-all duration-300"
+        >
+          <span
+            class="tdsi-back-to-top-fill text-2xl leading-6 text-white"
+          ></span>
+        </button>
+      </div>
+    </footer>
+    <script defer="defer" src="js/index.js"></script>
+    <script src="4c207328ee253ce23210.js"></script>
+    <script src="d5df037ba2b4cd7e2a76.js"></script>
+    <script src="e50baf85050440116dec.js"></script>
+    <script src="f969a35ea852a6cf4340.js"></script>
+  </body>
+  <script>
+    const scrollContainer = document.querySelector(".contact-partner");
+    scrollContainer.addEventListener("wheel", (e) => {
+      e.preventDefault(), (scrollContainer.scrollLeft += e.deltaY);
+    });
+  </script>
+</html>

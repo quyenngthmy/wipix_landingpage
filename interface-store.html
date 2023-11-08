@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Wipix - Kho Giao diện</title>
+    <link href="static/css/home.min.css" rel="stylesheet" />
+  </head>
+  <body class="w-screen overflow-x-hidden font-SF-Pro-Text">
+    <header class="w-full sticky top-0 bg-white z-20">
+      <div class="w-full mx-auto xl:max-w-7xl">
+        <div
+          class="relative flex w-full justify-between items-center pl-4 pr-6 py-[22px] md:py-3.5 xl:p-2 2xl:px-0"
+        >
+          <div class="w-[93px] h-9">
+            <a href="index.html"
+              ><img
+                src="images/logo.svg"
+                class="w-full h-full object-contain"
+                alt=""
+            /></a>
+          </div>
+          <div
+            id="dropdown-menu"
+            class="invisible transition-all opacity-0 duration-300 w-full !transform-none xl:!visible xl:opacity-100 xl:!static xl:!h-fit xl:w-fit"
+          >
+            <div
+              class="flex flex-col py-4 px-6 gap-8 text-body-2 text-wp-neutral-1-900 md:py-8 xl:p-0 xl:flex-row-reverse"
+            >
+              <div class="flex gap-2 justify-end font-semibold">
+                <button class="btn-log-in h-fit">
+                  <a href="#" class="py-2 px-7">Đăng nhập</a>
+                </button>
+                <button class="btn-primary-full h-fit">
+                  <a href="#" class="py-2 px-7">Đăng ký</a>
+                </button>
+              </div>
+              <ul
+                id="list-menu"
+                class="flex flex-col gap-2 xl:gap-4 xl:flex-row"
+              >
+                <li class="flex">
+                  <a href="index.html" class="p-2 xl:px-3">Trang chủ</a>
+                </li>
+                <li class="flex">
+                  <a href="feature.html" class="p-2 xl:px-3">Tính năng</a>
+                </li>
+                <li class="flex font-semibold text-wp-primary-1">
+                  <a href="interface-store.html" class="p-2 xl:px-3"
+                    >Giao diện</a
+                  >
+                </li>
+                <li class="flex">
+                  <a href="app-store.html" class="p-2 xl:px-3">Kho ứng dụng</a>
+                </li>
+                <li class="flex">
+                  <a href="blog.html" class="p-2 xl:px-3">Blog</a>
+                </li>
+                <li class="flex">
+                  <a href="contact.html" class="p-2 xl:px-3">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              id="image-header"
+              class="absolute bottom-0 right-0 w-full xl:!hidden"
+            >
+              <div class="relative w-full pt-[42%]">
+                <img
+                  src="images/header-bottom-img.svg"
+                  class="image-custom object-cover"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            id="menu-toggle-btn"
+            class="flex w-6 h-6 text-wp-neutral-1-900 text-2xl leading-none xl:hidden"
+            data-dropdown-toggle="dropdown-menu"
+          >
+            <i class="tdsi-menu-fill text-xl leading-none"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="w-full bg-breadcrumb bg-cover bg-center bg-no-repeat">
+          <div class="mx-auto w-full xl:max-w-7xl">
+            <div
+              class="flex flex-col gap-2 text-center text-white items-center px-4 py-[54px] md:pt-[34px] md:pb-44 md:px-6 xl:pt-12 xl:pb-44 2xl:px-14"
+            >
+              <p
+                class="text-heading-3 font-semibold md:text-display-6 md:leading-[53px] xl:text-display-4 xl:leading-[74px]"
+              >
+                Kho giao diện WiPix
+              </p>
+              <div
+                class="flex gap-1.5 items-center text-body-2 bg-white/20 px-3 py-1.5"
+              >
+                <div class="flex"><a href="index.html">Trang chủ</a></div>
+                <span class="flex justify-center items-center"
+                  ><i class="tdsi-chevron-right-fill text-xl leading-none"></i
+                ></span>
+                <p>Kho giao diện</p>
+              </div>
+              <p class="text-body-2 md:pt-2 lg:text-body-1">
+                WiPix, thiết kế website chuyên nghiệp và đa ngành
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full mx-auto relative xl:max-w-7xl">
+          <div class="flex flex-col items-center w-full text-wp-neutral-1-900">
+            <div
+              class="w-full px-4 md:px-6 md:absolute md:-top-28 lg:px-2 2xl:px-0"
+            >
+              <div
+                class="flex flex-col items-center gap-6 bg-white pt-8 w-full rounded-2xl md:shadow-1-lg md:p-8"
+              >
+                <div class="flex flex-col gap-4 md:max-w-[75%] xl:max-w-[50%]">
+                  <p
+                    class="text-wp-neutral-1-900 text-heading-4 font-semibold font-TMTSans md:text-heading-2"
+                  >
+                    Tìm kiếm giao diện theo chủ đề
+                  </p>
+                  <p class="text-wp-neutral-1-600 text-body -1">
+                    Bạn đang kinh doanh ở lĩnh vực nào?
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-4 w-full md:gap-6 md:flex-row xl:max-w-[80%]"
+                >
+                  <form
+                    class="flex justify-between p-1 pl-4 border border-wp-neutral-2-200 rounded-full w-full h-fit md:w-1/2 xl:w-3/5"
+                  >
+                    <input
+                      placeholder="Tìm kiếm"
+                      class="flex-grow placeholder:text-wp-neutral-1-600 text-wp-neutral-1-900 text-body-1 focus:outline-0"
+                    />
+                    <button
+                      type="submit"
+                      class="flex p-2.5 bg-wp-primary-1 rounded-full"
+                    >
+                      <i
+                        class="tdsi-search-fill text-2xl leading-none text-white"
+                      ></i>
+                    </button>
+                  </form>
+                  <div
+                    class="w-full relative text-body-2 text-wp-neutral-1-900 md:w-1/2 xl:w-2/5"
+                  >
+                    <button
+                      id="theme-toggle-btn"
+                      data-dropdown="dropdown-theme"
+                      data-dropdown-delay="0"
+                      data-dropdown-offset-distance="5"
+                      class="flex justify-between border border-wp-neutral-2-200 rounded-full p-4 pr-3.5 h-fit w-full"
+                    >
+                      Công nghệ & phần mềm
+                      <i
+                        class="tdsi-chevron-down-fill text-base leading-none"
+                      ></i>
+                    </button>
+                    <div
+                      id="dropdown-theme"
+                      class="invisible transition-all opacity-0 right-0 w-full top-0 bg-white shadow-1-lg rounded overflow-y-scroll max-h-[156px] max-w-full"
+                    >
+                      <ul class="py-1.5">
+                        <li class="px-3 py-2">Text 1</li>
+                        <li class="px-3 py-2">Text 2</li>
+                        <li class="px-3 py-2">Text 3</li>
+                        <li class="px-3 py-2">Text 4</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full py-12 md:pb-[60px] md:pt-40 px-4 md:px-6 lg:px-2 2xl:px-0"
+            >
+              <div class="w-full flex justify-center items-center">
+                <div class="w-full">
+                  <div class="w-full flex justify-center">
+                    <div
+                      class="text-heading-2 font-TMTSans font-semibold text-wp-neutral-1-900 text-center md:text-display-6 md:max-w-[640px]"
+                    >
+                      Giải pháp website đa lĩnh vực
+                    </div>
+                  </div>
+                  <div class="pt-4 flex justify-center items-center">
+                    <div class="w-[100px] h-1.5 bg-wp-secondary-1"></div>
+                  </div>
+                  <div class="w-full flex justify-center pt-6">
+                    <p
+                      class="pt-4 text-center text-body-2 md:text-body-1 font-normal font-SF-Pro-Text text-wp-neutral-1-700 md:max-w-[640px]"
+                    >
+                      WiPix với bộ giao diện đa lĩnh vực, giúp bạn mang những
+                      sản phẩm của mình đến với khách hàng một cách thân thiện
+                      và chân thực nhất.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-2 gap-y-4 pt-6 md:pt-8 md:px-4 lg:px-0 md:gap-x-10 md:gap-y-8"
+              >
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-1.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Công nghệ & phần mềm
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-2.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Du lịch & Lối sống
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-3.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Thể thao & Làm đẹp
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-4.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Bất động sản
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-5.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Y học & Sức khỏe
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-6.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Nhà & vườn cây
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-7.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Thực phẩm & Nhà hàng
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-8.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Tài chính & Bảo hiểm
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-9.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Giải trí & Trò chơi
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-10.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Giáo dục & Đào tạo
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-11.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Thương mại & Bán lẻ
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-12.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Kinh doanh & Tư vấn
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-13.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Oto & Giao thông
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-14.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Kiến trúc & Xây dựng
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="py-3 px-2.5 md:px-4 lg:px-[18px] w-full hover:shadow-1-md transition-all"
+                >
+                  <div class="flex w-full justify-center items-center">
+                    <div class="w-14 h-14 md:w-16 md:h-16">
+                      <img src="images/giai-phap-15.svg" />
+                    </div>
+                  </div>
+                  <div class="pt-2 text-center">
+                    <p
+                      class="text-title-2 font-SF-Pro-Text font-semibold text-wp-neutral-1-900"
+                    >
+                      Quảng cáo & Marketing
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full h-full bg-white">
+          <div class="xl:max-w-7xl mx-auto w-full">
+            <div
+              class="flex flex-col gap-6 w-full py-12 px-6 md:py-[60px] md:gap-8 lg:py-20 lg:gap-10 lg:px-2 2xl:px-0"
+            >
+              <div class="w-full flex justify-center items-center">
+                <div class="w-full">
+                  <div class="w-full flex justify-center md:px-12">
+                    <div
+                      class="text-heading-3 font-TMTSans font-semibold text-wp-neutral-1-900 text-center md:text-display-6 md:max-w-[692px] lg:max-w-[875px]"
+                    >
+                      Giao diện được sử dụng nhiều nhất
+                    </div>
+                  </div>
+                  <div class="w-full flex justify-center">
+                    <p
+                      class="pt-4 text-center text-body-2 md:text-body-1 font-normal text-wp-neutral-1-700 xl:max-w-[875px] xl:px-9"
+                    >
+                      Tất cả các giao diện WiPix cung cấp đều được thiết kế tinh
+                      gọn, chuyên nghiệp và phù hợp với nhiều thiết bị; đáp ứng
+                      nhu cầu của khách hàng và khả năng tiếp cận người dùng
+                      cao.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3"
+              >
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-image-2.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-thumbs-1.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-image-2.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-thumbs-1.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full h-full bg-white">
+          <div class="xl:max-w-7xl mx-auto w-full">
+            <div
+              class="flex flex-col gap-6 w-full py-12 px-6 md:py-[60px] md:gap-8 lg:py-20 lg:gap-10 lg:px-2 2xl:px-0"
+            >
+              <div class="w-full flex justify-center items-center">
+                <div class="w-full">
+                  <div class="w-full flex justify-center md:px-12">
+                    <div
+                      class="text-heading-3 font-TMTSans font-semibold text-wp-neutral-1-900 text-center md:text-display-6 md:max-w-[692px] lg:max-w-[875px]"
+                    >
+                      Giao diện mới nhất
+                    </div>
+                  </div>
+                  <div class="w-full flex justify-center">
+                    <p
+                      class="pt-4 text-center text-body-2 md:text-body-1 font-normal text-wp-neutral-1-700 xl:max-w-[875px] xl:px-9"
+                    >
+                      Tham khảo những mẫu website mới nhất hiện nay
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3"
+              >
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-image-2.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-thumbs-1.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-image-2.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="w-full shadow-1-xl">
+                    <div
+                      class="flex justify-start items-center gap-x-1 p-1 bg-wp-neutral-1-900"
+                    >
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                      <div
+                        class="w-[3px] h-[3px] rounded-full bg-wp-neutral-1-50"
+                      ></div>
+                    </div>
+                    <div class="flex justify-center items-center relative">
+                      <div class="relative flex pt-[56.25%] w-full">
+                        <img
+                          class="image-custom object-cover rounded-t-md shadow-1-md"
+                          src="images/interface-thumbs-1.png"
+                        />
+                      </div>
+                      <div class="absolute top-3 right-3">
+                        <span class="flex p-1 bg-wp-neutral-1-900 rounded-md"
+                          ><i
+                            class="tdsi-crown-fill text-orange-400 text-2xl leading-none"
+                          ></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-body-1 font-normal text-wp-neutral-1-900">
+                    Landing page template
+                  </p>
+                  <div
+                    class="flex items-center gap-x-1 text-wp-primary-1 text-caption-1 font-normal"
+                  >
+                    <span class="flex items-center"
+                      ><i
+                        class="tdsi-folder-line bg-white text-wp-primary-1 text-xl leading-5"
+                      ></i
+                    ></span>
+                    Medical
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="w-full bg-white">
+        <div class="w-full mx-auto xl:max-w-7xl">
+          <div
+            class="flex flex-col gap-6 w-full px-6 py-[60px] lg:py-20 xl:flex-row xl:justify-between 2xl:px-0"
+          >
+            <div
+              class="flex flex-col w-full gap-12 md:max-w-[50%] xl:max-w-[30%]"
+            >
+              <div class="w-full flex flex-col gap-6">
+                <div class="w-full max-w-[170px] max-h-[66px]">
+                  <div class="relative w-full pt-[39%]">
+                    <img
+                      src="images/logo.svg"
+                      alt="Logo"
+                      class="image-custom object-contain"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 w-full text-wp-neutral-1-400 text-body-1 font-normal"
+                >
+                  <p>
+                    Worldwide tech store since 2020. We sell over 1000+ branded
+                    products on our website
+                  </p>
+                  <p class="w-full flex gap-2 items-center">
+                    <span
+                      class="tdsi-pin-fill text-wp-neutral-1-500 text-2xl leading-6"
+                    ></span>
+                    <span
+                      >Lô III-26, đường 19/5a, KCN Tân Bình, f. Tân Phú</span
+                    >
+                  </p>
+                  <p class="w-full flex gap-2 items-center">
+                    <span
+                      class="tdsi-call-fill text-wp-neutral-1-500 text-2xl leading-6"
+                    ></span>
+                    <span>+6289 456 3455</span>
+                  </p>
+                </div>
+              </div>
+              <button
+                class="w-fit flex items-center gap-2 rounded-[100px] bg-wp-primary-1/10 pr-8 text-wp-neutral-1-900 text-header-2"
+              >
+                <span class="flex p-2 bg-wp-primary-1/20 rounded-full"
+                  ><i
+                    class="tdsi-call-fill text-white text-2xl leading-6 p-3 bg-wp-primary-1 rounded-full shadow-[0px_4px_20px_rgba(0,0,0,0.1)]"
+                  ></i> </span
+                ><span>Hotline:</span>
+                <span class="font-semibold">1900 2852</span>
+              </button>
+            </div>
+            <div
+              class="w-full grid grid-cols-2 gap-6 font-semibold md:grid-cols-3 md:justify-between xl:max-w-[50%]"
+            >
+              <div class="flex flex-col gap-6 w-fit md:justify-self-start">
+                <p class="text-header-1 text-wp-neutral-1-900">Trang chính</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Trang chủ</li>
+                  <li>Tầm nhìn</li>
+                  <li>Bảng giá</li>
+                  <li>Về chúng tôi</li>
+                  <li>Liên hệ</li>
+                </ul>
+              </div>
+              <div
+                class="flex flex-col gap-6 w-fit justify-self-end md:justify-self-center"
+              >
+                <p class="text-header-1 text-wp-neutral-1-900">Trang CMS</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Kho giao diện</li>
+                  <li>Blog</li>
+                  <li>Blog Details</li>
+                  <li>Career Details</li>
+                  <li>Integrations Details</li>
+                  <li>Careers</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-6 w-fit md:justify-self-end">
+                <p class="text-header-1 text-wp-neutral-1-900">Trang khác</p>
+                <ul
+                  class="flex flex-col gap-4 text-title-1 text-wp-neutral-1-700"
+                >
+                  <li>Style Guide</li>
+                  <li>Licenses</li>
+                  <li>Career Details</li>
+                  <li>Integrations Details</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full flex flex-col items-center gap-2 px-6 py-4 border-t border-wp-neutral-2-200 lg:flex-row lg:justify-between 2xl:px-0"
+          >
+            <p class="text-title-1 text-wp-neutral-1-900 md:whitespace-nowrap">
+              Copyright © 2023 TWeb Templates | All Rights Reserved |
+              <a href="#" class="underline text-wp-neutral-1-500"
+                >Terms and Conditions</a
+              >
+              |
+              <a href="#" class="underline text-wp-neutral-1-500"
+                >Privacy Policy</a
+              >
+            </p>
+            <ul class="flex gap-3 text-wp-neutral-1-500 text-2xl leading-6">
+              <li class="flex">
+                <a href="#" class="tdsi-facebook-f-fill"></a>
+              </li>
+              <li class="flex"><a href="#" class="tdsi-twitter-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-instagram-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-tiktok-fill"></a></li>
+              <li class="flex"><a href="#" class="tdsi-youtube-fill"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit right-8 fixed bottom-20 z-10">
+        <button
+          id="scrollToTopBtn"
+          class="p-4 rounded-full hidden justify-center items-center bg-wp-primary-1 shadow-1-xl hover:bg-wp-primary-2 active: transition-all duration-300"
+        >
+          <span
+            class="tdsi-back-to-top-fill text-2xl leading-6 text-white"
+          ></span>
+        </button>
+      </div>
+    </footer>
+    <script defer="defer" src="js/index.js"></script>
+  </body>
+  <script src="4c207328ee253ce23210.js"></script>
+  <script src="d5df037ba2b4cd7e2a76.js"></script>
+  <script src="e50baf85050440116dec.js"></script>
+  <script src="f969a35ea852a6cf4340.js"></script>
+</html>
